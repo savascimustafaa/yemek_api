@@ -8,7 +8,6 @@ import io
 import os
 import re
 from urllib.parse import urljoin, quote
-import pytesseract
 from PIL import Image
 
 # Güvenlik uyarılarını kapatıyoruz
