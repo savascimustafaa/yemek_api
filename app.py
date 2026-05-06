@@ -61,7 +61,7 @@ def get_kyk_ankara_menu():
     try:
         # 1. ADIM: F12 panelinden "Request URL" kısmında bulduğun tam adresi buraya yapıştır.
         # (Örnek: "https://api.siteninadi.com/liste?cityId=6&mealType=1" gibi bir şey olmalı)
-        api_url = "https://kykyemekliste.com/api/menu/liste?cityId=6&mealType=1" 
+        api_url = "https://kykyemekliste.com/yurt-tunnel/menu/liste?cityId=6&mealType=1" 
         
         # Site bot olduğumuzu sanıp engellemesin diye tarayıcı kimliğine bürünüyoruz
         headers = {
